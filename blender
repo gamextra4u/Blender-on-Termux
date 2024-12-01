@@ -1,0 +1,10 @@
+#!/bin/bash
+
+XDG_RUNTIME_DIR=${TMPDIR} termux-x11 :0& > /dev/null 2>&1
+sleep 1
+am start -n com.termux.x11/com.termux.x11.MainActivity
+sleep 1
+DISPLAY=:0 wine explorer /desktop=shell,1280x720 C:\\Program Files\\blender-arm64\\blender-launcher.exe
+sleep 2
+   pkill -f app_process
+
