@@ -18,7 +18,7 @@ Usage
 
 - Copy and paste the following command into Termux:
 ```
-curl -o install https://raw.githubusercontent.com/gamextra4u/Blender-on-Termux/0.1/install && chmod +x install && ./install
+curl -o install https://raw.githubusercontent.com/gamextra4u/Blender-on-Termux/0.1/install && chmod +x install && bash ./install
 ```
 - Once installed, simply type `blender` to launch Blender with inputbridge.
 
